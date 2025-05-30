@@ -449,3 +449,92 @@ footer{
         padding: 10px;
     }
 }
+
+
+@media (max-width: 414px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    background-color: rgba(34, 34, 51, 0.95);
+    padding: 1rem;
+    border-radius: 8px;
+    z-index: 10;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .menu-icon {
+    display: block;
+    font-size: 1.8em;
+  }
+
+  .element1 div {
+    width: 100%;
+    text-align: center;
+  }
+
+  .element1 div h1 {
+    font-size: 1.6em;
+  }
+
+  .element2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  .element2 img {
+    width: 90%;
+    height: auto;
+    border-radius: 0 80% 20%;
+    box-shadow: 0 0 15px rgb(150, 113, 175);
+  }
+
+  .container-element-about {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .img-about {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact .container-elements {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .container-contact-element1,
+  .container-element2 {
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  .container-contact-element1 h2,
+  .container-element2 h2 {
+    font-size: 1.3em;
+  }
+
+  .container-contact-element1 p,
+  .container-element2 p {
+    font-size: 1em;
+    text-align: justify;
+  }
+
+  .forme1 input,
+  #commentaire {
+    width: 100%;
+    font-size: 1em;
+  }
+}
