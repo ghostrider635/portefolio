@@ -82,12 +82,8 @@ ul li a{
 }
 
 .element1 h1{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 3rem;
     
-}
-.element1 h3{
-    font-family: fantasy;
 }
 
 
@@ -398,6 +394,15 @@ footer{
 
   .menu-icon {
     display: block;
+  }
+
+  .element1 div {
+    width: 100%;
+    text-align: center;
+  }
+  .element1 div h1{
+    font-size: 2em;
+    
   }
 }
 
