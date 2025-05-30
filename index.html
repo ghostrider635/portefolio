@@ -206,12 +206,12 @@
     navLinks.classList.toggle("show");
   }
 
-  // Fermer le menu quand on clique à l’extérieur
+  // pour fermer
   document.addEventListener("click", function (event) {
     const navLinks = document.getElementById("navLinks");
     const menuIcon = document.querySelector(".menu-icon");
 
-    // Si on clique en dehors du menu ET de l'icône, on le ferme
+    // une condition pour vérifier si le clic est en dehors du menu et de l'icône
     if (
       !navLinks.contains(event.target) &&
       !menuIcon.contains(event.target)
